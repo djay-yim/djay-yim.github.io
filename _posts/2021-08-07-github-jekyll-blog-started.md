@@ -1,16 +1,17 @@
 ---
-title: "djay blog started"
+title: "Djay blog started"
 excerpt: "A post with djay blog started"
-last_modified_at: 2021-08-07
+last_modified_at: 2021-08-10
 toc: true
 ---
 
-# Blog. with. Github.
+# #Blog #Github #Jekyll
 ## 2021.08.07
 > 세월 참 빠르다.
 
 ### (내) Blog의 시작
-> 개발자로 살다보면 검색을 참 많이하게 된다.
+> 개발자로 살다보면 검색을 참 많이하게 된다.  
+
 #### 뫼비우스의 띠
 1. 좋은 정보를 얻고, 좋은 글을 읽고 하다보면 자연스럽게 이런 생각이 든다.
 2. 나도 **멋진 blog**를 갖고 싶다.
@@ -64,17 +65,17 @@ toc: true
 
 ---
 
-### ⭐ 끝..  🛬 글을 마무리하며..
+### ⭐ 끝..?  글을 마무리하며..🛬
 > 👉 "github + jekyll" Blog 만들기 요약
 
 1. [jekyll 테마를 고른다.](#-테마-선택하기)
-2. [github repository 에 올린다.](#---github-repository-세팅)
+2. [github repository 에 올린다.](#-github-repository-세팅)
 3. github page로 세팅한다.
 4. 참 쉽져?
 
 > 👉 로컬세팅 - 개발자는 local세팅이 시작이라고 배웠습니다. 
 
-1. [local 에 Ruby(Rbenv)를 설치한다.](#---local-server-세팅)
+1. [local 에 Ruby(Rbenv)를 설치한다.](#-local-server-세팅)
 2. jekyll 테마를 넣어놓은 경로로 간다.
 3. 번들러랑 지킬 gem을 설치한다.
   - gem install bundler jekyll
@@ -84,15 +85,17 @@ toc: true
 6. 끝
 
 
-> ⭐ Tips
+> ⭐ Tips  
+
 - Ruby 3.0 부터 webrick이 default gem에서 빠짐
-  - bundle add webrick
+  - 추가하려면 👇 
+  - bundle add webrick 
+- 👉 하단에 작업 log 날것 그대로 추가했습니다.
 
-
-- 하단에 작업 log 날것 그대로 추가했습니다.
 ---
 
-> 작성 환경
+> 작성 환경  
+
 - MacBook Air (M1, 2020) Apple M1
 - OS : MacOS Big Sur 버전 11.3
 
@@ -133,7 +136,7 @@ toc: true
 
 > clear files & set config  
 
-- 샘플, 데모로 작성된 파일들 삭제
+- 샘플, 데모로 작성되어있는 파일들 삭제
 - 사이트 이름도 내이름으로~
 - [mmistakes 테마 가이드](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
@@ -185,8 +188,7 @@ toc: true
 - [jekyll customizing 참고](https://www.jihyeleee.com/blog/third-designer-can-make-jekyll-blog/)
 
 #### 👉 Ruby 설치
-> 링크로 대체한다.  
-
+> 링크로 대체한다.
 - [맥에서 루비하기 참고](https://dev-yakuza.posstree.com/ko/ruby-on-rails/rails-on-mac/)
 
 #### 👉 뭐뭐 세팅해야되지?

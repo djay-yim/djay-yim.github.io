@@ -1,6 +1,6 @@
 ---
 title: "Hello Note"
-permalink: /notes/
+permalink: /notes/hello/
 last_modified_at: 2021-08-17
 toc: true
 ---
