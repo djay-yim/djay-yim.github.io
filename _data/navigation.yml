@@ -3,7 +3,9 @@ main:
   - title: "About"
     url: /about/
   - title: Notes
-    url: /notes/
+    url: /notes/hello/
+  - title: Posts
+    url: /
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -15,15 +17,12 @@ main:
 
 # documentation links
 docs:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-
   - title: Notes
     children:
       - title: "Hello note"
-        url: /notes/
+        url: /notes/hello/
+      - title: "Note 작성 Tips"
+        url: /notes/tips/
 
 # sidebar navigation list sample
 sidebar-sample:
