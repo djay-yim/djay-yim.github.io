@@ -278,6 +278,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  notes:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -291,8 +294,6 @@ defaults:
       author_profile: true
       share: false
       comments: false
-      sidebar:
-        nav: "docs"
   # _posts
   - scope:
       path: ""
@@ -304,3 +305,16 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      sidebar:
+        nav: "notes"

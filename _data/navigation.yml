@@ -16,7 +16,7 @@ main:
   #   url: /sitemap/
 
 # documentation links
-docs:
+notes:
   - title: Notes
     children:
       - title: "Hello note"
