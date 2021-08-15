@@ -3,9 +3,13 @@ main:
   - title: "About"
     url: /about/
   - title: Notes
-    url: /notes/hello/
+    url: /collection-archive/
   - title: Posts
     url: /
+  - title: Categories
+    url: /categories/
+  - title: Tags
+    url: /tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -15,24 +19,14 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-# documentation links
-notes:
-  - title: Notes
+# sidebar navigation links
+navFavorites:
+  - title: ⭐️ Favorites
     children:
-      - title: "Hello note"
-        url: /notes/hello/
-      - title: "Note 작성 Tips"
-        url: /notes/tips/
+      - title: "Notes"
+        url: /collection-archive/
+      - title: "Categories"
+        url: /categories/
+      - title: "Tags"
+        url: /tags/
 
-# sidebar navigation list sample
-sidebar-sample:
-  - title: "Parent Page A"
-    children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
-      - title: "Child Page A3"
-        url: /
-      - title: "Child Page A4"
-        url: /

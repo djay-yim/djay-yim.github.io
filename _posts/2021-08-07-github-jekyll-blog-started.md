@@ -3,6 +3,16 @@ title: "Djay blog started"
 excerpt: "A post with djay blog started"
 last_modified_at: 2021-08-10
 toc: true
+toc_sticky: true
+categories:
+  - blog
+tags:
+  - jekyll
+  - github
+  - github pages
+  - start
+  - blog
+  - djay
 ---
 
 # #Blog #Github #Jekyll
@@ -107,7 +117,7 @@ toc: true
 > 테마먼저 고르자, 보기좋은 블로그가 읽기도 좋다.
 
 - jekyll 테마 관련 사이트👇가 많고, 테마는 훨씬 더 많다.
-  - http://jekyllthemes.org/
+  - [http://jekyllthemes.org/](http://jekyllthemes.org/)
 
 
 - TMI - 디자인 문외한인 나의 선택기준
