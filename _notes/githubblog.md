@@ -1,13 +1,16 @@
 ---
-title: "Hello Note"
-permalink: /notes/tips/
-last_modified_at: 2021-08-17
+title: "Github Blog"
+permalink: /notes/githubblog/
 toc: true
+toc_sticky: true
+categories:
+  - notes 
+tags:
+  - tips
 ---
 
-## Note 작성 Tips  
-### ⭐️ 강조
-#### Notice
+## Github Blog 작성 Tips  
+### ⭐ Notice
 > {: notice--{level}}
 
 {level} **info**? like this. blue
