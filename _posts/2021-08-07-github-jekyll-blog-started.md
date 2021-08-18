@@ -1,6 +1,5 @@
 ---
 title: "Djay blog started"
-excerpt: "A post with djay blog started"
 last_modified_at: 2021-08-10
 toc: true
 toc_sticky: true
