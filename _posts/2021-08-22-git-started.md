@@ -19,7 +19,7 @@ tags:
 프로젝트 진행시 필요한 형상관리 기능은 SVN으로도 다 할 수 있었다.  
 그때의 나: 굳이 새로운걸 써야될까??? 지금도 다 되는데..?
 
-지금의 나: 다들 🔫들고 싸우는데 혼자 🏹들고 싸우실..?
+**지금의 나** : 다들 총들고 싸우는데 혼자 🏹들고 싸우실..?
 {: .notice--info}
 
 > GIT을 써야하는데는 몇 가지 이유가 있다.  
@@ -32,7 +32,8 @@ tags:
 ---
 
 ### [GIT ?](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
-> GIT = History
+> GIT = History  
+
 - GIT is the history of your codes.
 - 요즘에는 대부분의 프로젝트가 GIT으로 관리한다.
 - 보편적으로 많이 쓰는건 보편적으로 좋은거다.
@@ -51,7 +52,9 @@ tags:
 
 아, 기존에 나처럼 SVN같은 형상관리툴을 쓰던 사람이라면 이개념 하나는 장착하고 시작하자.
 
-⭐️ 기록되는 단위는 commit이다. 👉 file단위가 아니다. commit단위다!
+⭐️ **Plase Note!**   
+👉 기록되는 단위는 **commit**이다.  
+👉 ~~file단위~~가 아니다. **commit** 단위다!
 {: .notice--danger}
 
 ### Commands 👇
