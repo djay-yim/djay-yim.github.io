@@ -65,6 +65,7 @@ tags:
 - git rebase
 - git pull
 - git reset
+- git log
 
 #### 👉 Using
 ##### git저장소 세팅(원격저장소=github)
@@ -116,6 +117,11 @@ git config --unset --local user.email
 ##### reset (hard: commit취소/변경내용삭제)
 ```shell
 git reset --hard
+```
+
+##### git log
+```shell
+git log --pretty=oneline
 ```
 
 ### 🛬 마무리

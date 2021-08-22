@@ -1,5 +1,5 @@
 ---
-title: "Djay blog started"
+title: "Blog? started?"
 last_modified_at: 2021-08-10
 toc: true
 toc_sticky: true
