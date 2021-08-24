@@ -31,7 +31,7 @@ tags:
 
 ---
 
-### [GIT ?](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
+### [GIT ?](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)){:target="_blank"}
 > GIT = History  
 
 - GIT is the history of your codes.
@@ -52,7 +52,7 @@ tags:
 
 아, 기존에 나처럼 SVN같은 형상관리툴을 쓰던 사람이라면 이개념 하나는 장착하고 시작하자.
 
-⭐️ **Plase Note!**   
+⭐️ **Please Note!**   
 👉 기록되는 단위는 **commit**이다.  
 👉 ~~file단위~~가 아니다. **commit** 단위다!
 {: .notice--danger}
@@ -69,6 +69,9 @@ tags:
 - git pull
 - git reset
 - git log
+- git branch
+- git checkout
+- git switch
 
 #### 👉 Using
 ##### git저장소 세팅(원격저장소=github)
@@ -127,10 +130,19 @@ git reset --hard
 git log --pretty=oneline
 ```
 
+##### git stash
+```shell
+git stash
+git stash list
+git stash pop
+git stash apply stash@{0}
+git stash clear
+```
+
 ### 🛬 마무리
 > 갑자기 마무리한다. 쓰려고 보니 쓸게 너무많다. 나눠서 포스트하자..
 
 ## References
-- [https://git-scm.com/](https://git-scm.com/)
-- [위키 - 깃(소프트웨어)](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
+- [https://git-scm.com/](https://git-scm.com/){:target="_blank"}
+- [위키 - 깃(소프트웨어)](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)){:target="_blank"}
 
