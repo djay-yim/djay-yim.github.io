@@ -69,6 +69,9 @@ tags:
 - git pull
 - git reset
 - git log
+- git branch
+- git checkout
+- git switch
 
 #### 👉 Using
 ##### git저장소 세팅(원격저장소=github)
@@ -125,6 +128,15 @@ git reset --hard
 ##### git log
 ```shell
 git log --pretty=oneline
+```
+
+##### git stash
+```shell
+git stash
+git stash list
+git stash pop
+git stash apply stash@{0}
+git stash clear
 ```
 
 ### 🛬 마무리
