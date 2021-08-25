@@ -37,9 +37,11 @@ tags:
 
 ---
 
-## ⭐️ Show me the numbers
 
-### [AB - Apache HTTP server benchmarking tool](https://httpd.apache.org/docs/2.4/ko/programs/ab.html){:target="_blank"}
+## 👇 Show me the numbers 
+
+### ⭐️ [AB - Apache HTTP server benchmarking tool](https://httpd.apache.org/docs/2.4/ko/programs/ab.html){:target="_blank"}
+
 > 아파치 웹서버 성능검사 도구
 
 #### Features
@@ -60,7 +62,11 @@ ab -n 100 -c 10 https://www.naver.com/include/themecast/targetAndPanels.json
 👇 Result 
 ![ab-result.png](/assets/images/20210824/ab-result.png)
 
-### [Jmeter](https://jmeter.apache.org/){:target="_blank"}
+
+---
+
+### ⭐️ [Jmeter](https://jmeter.apache.org/){:target="_blank"}
+
 > 아파치 재단의 어플리케이션으로..
 
 The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance.
@@ -91,6 +97,8 @@ bin/jmeter -n -t ../tests/TestHello.jmx
 ⭐️ **Please Note!**   
 👉 [download link](https://jmeter.apache.org/download_jmeter.cgi){:target="_blank"}
 {: .notice--danger}
+
+---
 
 ### 🛬 마무리
 > 새삼스럽게 갑자기 마무리한다. 항상 그래왔듯이.. 너무 졸리다.
