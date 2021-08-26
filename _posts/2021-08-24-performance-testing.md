@@ -10,7 +10,7 @@ tags:
   - testing
 ---
 
-# #Performance
+# #Testing
 ## 2021.08.24
 > 성능 테스트
 
@@ -35,16 +35,16 @@ tags:
 되도록이면 나에게 유의미한 숫자를..😈  
 근데 어떻게 만들지?
 
+
+---
+# 🛫 Get Started - Show me the numbers 
 ---
 
+## ⭐️ [AB](https://httpd.apache.org/docs/2.4/ko/programs/ab.html){:target="_blank"}
 
-## 👇 Show me the numbers 
+> Apache HTTP server benchmarking tool - 아파치 웹서버 성능검사 도구
 
-### ⭐️ [AB - Apache HTTP server benchmarking tool](https://httpd.apache.org/docs/2.4/ko/programs/ab.html){:target="_blank"}
-
-> 아파치 웹서버 성능검사 도구
-
-#### Features
+### Features
 - CLI에서 명령어 한번 날려주면 http요청에 대해 숫자를 볼 수 있다.
 - [docs]((https://httpd.apache.org/docs/2.4/ko/programs/ab.html))에 보면 옵션이 굉장히 많다. 대충 필요한거 2개만 봐보자.
   - n : requests, 요청수. default=1
@@ -55,7 +55,7 @@ tags:
 👉 MAC 이나 Linux OS엔 대부분 설치 되어있다. Windows라면 설치해야 사용가능..
 {: .notice--danger}
 
-#### Using 👇
+### Using 👇
 ```shell
 ab -n 100 -c 10 https://www.naver.com/include/themecast/targetAndPanels.json
 ```
@@ -65,14 +65,14 @@ ab -n 100 -c 10 https://www.naver.com/include/themecast/targetAndPanels.json
 
 ---
 
-### ⭐️ [Jmeter](https://jmeter.apache.org/){:target="_blank"}
+## ⭐️ [Jmeter](https://jmeter.apache.org/){:target="_blank"}
 
 > 아파치 재단의 어플리케이션으로..
 
 The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance.
 It was originally designed for testing Web Applications but has since expanded to other test functions. 
 
-#### Features
+### Features
 - bin/jmeter 로 실행
   - options 
     - n : CLI로 실행하겠다. 👉 안넣으면 GUI로 실행
@@ -83,7 +83,7 @@ It was originally designed for testing Web Applications but has since expanded t
   - 나는 인증을위해 get method에 http header추가 정도만 해봤다.
   - 어렵지 않고 중요한 것도 아니여서 자세한 내용은 안남긴다. 
 
-#### Using 👇
+### Using 👇
 👇 GUI 수행
 ```shell
 bin/jmeter
@@ -100,10 +100,10 @@ bin/jmeter -n -t ../tests/TestHello.jmx
 
 ---
 
-### 🛬 마무리
+## 🛬 마무리
 > 새삼스럽게 갑자기 마무리한다. 항상 그래왔듯이.. 너무 졸리다.
 
-#### Insight 👀
+### Insight 👀
 - 내 경험에 비추어 봤을때 대부분의 경우 성능테스트로 명확한 답을 찾기는 어려웠다.
 - 결국 테스트란 about 이고, 고객 혹은 상사들을 위한 보고용 숫자 메이킹에 불과한 경우가 많았다.
 - 하지만 그안에서 유의미한 숫자를 선별하고 개선 전략을 찾아가는 과정은 분명히 필요하다고 생각한다.
