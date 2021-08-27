@@ -139,6 +139,11 @@ git stash apply stash@{0}
 git stash clear
 ```
 
+##### git rebase
+```shell
+git commit --amend --author="djay.yim <angelsocer@gmail.com>"
+```
+
 ### 🛬 마무리
 > 갑자기 마무리한다. 쓰려고 보니 쓸게 너무많다. 나눠서 포스트하자..
 
