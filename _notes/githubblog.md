@@ -13,16 +13,16 @@ tags:
 ### ⭐ Notice
 > {: notice--{level}}
 
-{level} **info**? like this. blue
+\{: .notice--info}<button class="copy">Copy</button>
 {: .notice--info}
 
-{level} warning? like this. yello
+\{: .notice--warning}<button class="copy">Copy</button>
 {: .notice--warning}
 
-{level} success? like this. green
+\{: .notice--success}<button class="copy">Copy</button>
 {: .notice--success}
 
-{level} danger? like this. red
+\{: .notice--danger}<button class="copy">Copy</button>
 {: .notice--danger}
 
 ---
@@ -58,3 +58,33 @@ plain text 👇
 {: .notice--danger}
 
 ---
+
+<style>
+.copy{float: right; background-color: #00adb5; color: white; font-weight: bolder;}
+</style>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+  $(".copy").bind("click", function(){
+  
+    var _this = $(this);
+    var thisText = _this.text();
+    var copyText = _this.parent().text().replace(thisText, '').trim();
+    var tempElem = document.createElement('textarea');
+    tempElem.value = copyText;  
+    document.body.appendChild(tempElem);
+  
+    tempElem.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempElem);
+
+    _this.text("You've just gotten this word!");
+  
+    setTimeout(function() {
+      _this.text("Copy");
+    }, 700);
+  });
+});
+</script>
