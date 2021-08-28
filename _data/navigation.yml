@@ -21,12 +21,12 @@ main:
 
 # sidebar navigation links
 navFavorites:
-  - title: ⭐️ Favorites
+  - title: ⭐ Favorites
     children:
-      - title: "Notes"
+      - title: "️👉 Notes"
         url: /collection-archive/
-      - title: "Categories"
+      - title: "👉 Categories"
         url: /categories/
-      - title: "Tags"
+      - title: "👉 Tags"
         url: /tags/
 
