@@ -13,23 +13,22 @@ tags:
 ### ⭐ Notice
 > {: notice--{level}}
 
-\{: .notice\-\-info}<button class="copy">Copy</button>
+\{: .notice\-\-info}<a href="#this" style="color: white; float: right;" class="copy btn btn--info">Copy? 👈</a>
 {: .notice--info}
 
-\{: .notice\-\-warning}<button class="copy">Copy</button>
+\{: .notice\-\-warning}<a href="#this" style="color: white; float: right;" class="copy btn btn--warning">Copy? 👈</a>
 {: .notice--warning}
 
-\{: .notice\-\-success}<button class="copy">Copy</button>
+\{: .notice\-\-success}<a href="#this" style="color: white; float: right;" class="copy btn btn--success">Copy? 👈</a>
 {: .notice--success}
 
-\{: .notice\-\-danger}<button class="copy">Copy</button>
+\{: .notice\-\-danger}<a href="#this" style="color: white; float: right;" class="copy btn btn--danger">Copy? 👈</a>
 {: .notice--danger}
 
 ---
 
 ### ⭐ Table
-> Table &nbsp; 
-<a href="#this" id="AnchorTableCopy" class="btn btn--success">Copy Table</a> 
+> Table <a href="#this" id="AnchorTableCopy" class="btn">Copy? 👈</a> 
 
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
