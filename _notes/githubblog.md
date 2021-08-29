@@ -13,16 +13,16 @@ tags:
 ### ⭐ Notice
 > {: notice--{level}}
 
-\{: .notice--info}<button class="copy">Copy</button>
+\{: .notice\-\-info}<button class="copy">Copy</button>
 {: .notice--info}
 
-\{: .notice--warning}<button class="copy">Copy</button>
+\{: .notice\-\-warning}<button class="copy">Copy</button>
 {: .notice--warning}
 
-\{: .notice--success}<button class="copy">Copy</button>
+\{: .notice\-\-success}<button class="copy">Copy</button>
 {: .notice--success}
 
-\{: .notice--danger}<button class="copy">Copy</button>
+\{: .notice\-\-danger}<button class="copy">Copy</button>
 {: .notice--danger}
 
 ---
