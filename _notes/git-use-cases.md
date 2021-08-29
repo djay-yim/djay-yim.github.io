@@ -49,3 +49,16 @@ git rebase -i 7a7c11c4eb5daf3a75d3a087e4af8b5535255317
 - commit 삭제
 - commit 메세지 수정
 - commit 내용 수정  
+
+### ⭐ remote
+> 원격 저장소 - remote repository  
+```shell
+# 원격저장소 추가
+git remote add origin https://github.com/djay-yim/djay-yim.github.io.git
+
+# 원격저장소 변경
+git remote set-url origin https://github.com/djay-yim/djay-yim.github.io.git
+
+# 원격저장소에 없는 local 브랜치 정리
+$ git remote update origin --prune
+```
